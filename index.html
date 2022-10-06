@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header id="heading">
+        <div class="nav-links">
+            <h1>Devfolio</h1>
+            <img src="bluelogo.png">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="index.html">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="intro">
+            <img src="mide.jpg" alt="mide picture">
+            <div class="brief">
+                <h5>WELCOME TO MY WORLD</h5>
+                <h1>Hi, I'm <b>Olukoya Oluwaseyi</b> a software developer <br> from Nigeria</h1>
+                <p>I'm a student and I specialize more on frontend web development</p>
+                <button>Contact Me</button>
+            </div>
+        </section>
+        <section id="about">
+            <div class="overview">
+                <h1>About Me</h1>
+                <p class="lorem">Lorem ipsum dolor sit amet. Et rerum Quis id ipsa rerum et dignissimos doloremque est magni dolorem aut tempore commodi. Ex reiciendis magni et fugiat deserunt et iusto fugit est vero similique est velit ipsa. Eos quia magni ut quia harum sed fugit Quis et vitae voluptas sit facilis rerum ut animi aliquid. Id nisi doloribus ut cumque laboriosam in assumenda natus est tempora modi.
+                    Hic sunt aperiam et saepe voluptate cum repellat sint qui fugiat sint nam molestiae architecto in quam quia! Vel fugit dicta ut animi architecto et nisi quisquam est unde fugit. Et ducimus nihil et aperiam nisi eos sapiente possimus. Ea fugiat aspernatur et sequi magni qui quam rerum vel earum vero et quasi odio non aspernatur deserunt et officia quia.
+                    Aut neque rerum aut optio accusantium ea autem autem et aliquid quasi non quia nihil rem voluptates voluptatem ea dignissimos itaque! 33 quia nemo sed quas repellat ut quia consequatur ut enim accusamus est inventore obcaecati non ipsa quis. Est totam dolorum est incidunt veritatis est voluptatem ducimus. Sit alias adipisci et quisquam necessitatibus sed numquam dolor.
+                </p>
+                <div class="set">
+                    <div class="container">
+                        <p class="skill">My Skills
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="container2">
+                        <p class="goal">My Goals
+                            <ul>
+                                <li>Becoming a full stack software developer</li>
+                                <li>Being able to apply for internship roles in any organisation</li>
+                                <li>Improve in my baking skills too</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="container3">
+                        <p class="hobby">Hobbies
+                            <ul>
+                                <li>Singing</li>
+                                <li>Watching movies</li>
+                                <li>Reading</li>
+                                <li>Baking</li>
+                                <li>Coding</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="reachme">
+                <h1>Contact</h1>
+                <p class="top">Thank you for taking out time to contact me</p>
+                <p class="top">Please fill the form below: </p>
+                <p>Your Name</p>
+                <input type="text" name="yourname" placeholder="Enter your full name">
+                <p>Your Email Address</p>
+                <input type="email" name="youremail" placeholder="noreply@gmail.com">
+                <p>Your message</p>
+                <textarea id="message" rows="6" maxlength="3000" placeholder="Enter your message" required></textarea>
+                <button type="submit">Send your message</button>
+            </div>
+        </section>
+        <section id="reg-form">
+            <h1>Registration</h1>
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required>
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="noreply@gmail.com" name="emailaddress" required>
+                <br>
+                <label for="pword">Password</label>
+                <input type="password" id="pword" name="password" placeholder="your password must be at least 6 characters" required>
+                <br>
+                <label for="conword">Confirm Password</label>
+                <input type="password" id="conword" name="confirmpassword" placeholder="your password must be at least 6 characters" required>
+
+                <div>
+                    <input type="radio" id="male" name="gender"> <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender"> <label for="female">Female</label>
+                </div>
+
+                <button type="submit">Register</button>
+            <form>
+        </section>
+    </main>
+    <footer>
+        <section id="bottom">
+            <div class="box">
+                <div class="thelogo">
+                    <img src="bluelogo.png">
+                    <h1>Devfolio</h1>
+                </div>
+                <div class="content">
+                    <h4>CONTENT</h4>
+                    <ul>
+                        <li>Author</li>
+                        <li>Contact</li>
+                        <li>Registration</li>
+                        <li>logo</li>
+                    </ul>
+                </div>
+                <div class="tools">
+                    <h4>TOOLS</h4>
+                    <ul>
+                        <li>Vs code</li>
+                        <li>Google</li>
+                        <li>Youtube</li>
+                        <li>W3schools</li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h4>HELP</h4>
+                    <ul>
+                        <li>Support</li>
+                        <li>FAQs</li>
+                        <li>Follow</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <h4>SOCIAL MEDIA</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copy">
+                <p>copyright@devfolio</p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
